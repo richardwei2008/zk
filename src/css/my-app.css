@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+/*reset*/
+body, ul, li, input, img, a, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, textarea { margin: 0; padding: 0; font-size: 14px; font-family: "微软雅黑"; color: #ffffff; font-weight: normal; }
+.clear { clear: both; }
+
+body, html {
+    display:block;
+    margin: 0 auto;
+    padding: 0px;
+    height: 100%;
+    max-width: 1280px;
+    background-color: #2D3132;/*#2D3132; */
+
+    text-align: center;
+    font-size: 100%;
+    font-family: "微软雅黑", "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+/*commons*/
+.share-mask {
+    position: fixed;
+    display:none;
+    top:-50px;
+    z-index:9999999;
+}
+
+.message-mask {
+    background: url('../images/messagemask.png') center no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    position: fixed;
+    display:none;
+    top:0;
+    z-index:1000;
+}
+.message-content {
+    background-color: #FFFFFF;
+    width : 80%;
+    height: 120px;
+    position: fixed;
+    top:    200px;
+    left: 10%;
+    z-index:1001;
+}
+.message-font {
+    color: #000000;
+    font-family: "微软雅黑", "Microsoft YaHei", Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    padding-top: 30px;
+}
+
+.ui-content-custom {
+    position: relative;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 35px 18px 10px 18px;
+}
+
+/*版权footer*/
+.copyright { position: relative;  width: 100%; padding:8px;  text-align:center; font-size:10px; color:#444;  }
+.copyright a { color:#ccc; }
+
+/*home*/
+.home-page {
+
+}
+.common-page-bg {
+    background: url('../images/common-bg.jpg') center repeat-y;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    min-height: 736px;
+}
+.home-banner {
+    padding-bottom: 10px;
+}
+.home-login {
+    width: 100%;
+    height: 94px;
+}
+.home-login-bg {
+    background: url('../images/home-banner.jpg') center no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    border-radius: 8px;
+}
+.home-main-menu:after { clear: both; content: " "; display: block; }
+.home-main-menu { overflow:hidden;width: 100%; }
+.home-main-menu li { float:left; margin: 1% 2%; width: 46%; overflow:hidden;}
+.home-main-menu li a { display:block; color:#333; line-height:60px; text-align:center; padding:0px 0px; }
+.home-main-menu li a img { margin:5px auto; width: 100%;  border-radius: 8px; }
+.home-main-menu li a span { display:block; width:80%; margin:auto; text-align:center; height:30px; line-height:30px; }
+
+.home-title { width: 100%; padding-top:15px;  text-align:15; text-indent:18px;font-size:16px; color:#333; font-weight: bold; }
+.home-title a { color:#ccc; }
+
+
+.home-project {
+    position: relative;
+    padding: 5px 0 20px 0;
+}
+
+.home-case {position: relative; width: 100%;}
+.home-case li {width:100%; height: 180px; float: left;position: relative;border-radius: 8px; background: #fff; margin: 8px 0}
+.home-case li img {position: relative; width:100%; height: 70%; border-radius: 8px 8px 0 0;}
+.home-case li .info {position: relative; bottom: -10%}
+.home-case li h2 {font-size: 1.2em;font-weight: normal;text-transform: uppercase;margin:5px; color: #485855}
+.home-case li d { font-size: 12px;color:#666;margin-left: 10px;padding-right:8px;margin-bottom:0px;}
+.home-case li p { font-size: 0.9em;margin:10; color:#485855;border-radius:4px;text-indent:8px;padding-right:8px;}
+
+/*rule*/
+
+.rule-page h1 {
+    color: #000000;
+    font-size: 24px;
+}
+.rule-wrapper{
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 100%;
+}
+.rule-accordion {
+    color: #000000;
+    border:1px solid #C6C6C6;
+    background-color:rgba(255, 255, 255, 1);
+    text-align:left;
+    font-size:14px;
+    line-height:24px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    box-shadow:0 1px 1px #f6f6f6;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+/*register*/
+.register-banner {
+    padding-bottom: 10px;
+}
+.register-banner-inner {
+    width: 70%;
+    height: 57px;
+}
+.register-banner-bg {
+    background: url('../images/common-banner.png') center no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.register-content input {
+    color: #000000;
+}
+.register-content p {
+    font-size: 11px;
+    color: #0000FF;
+}

@@ -1,4 +1,4 @@
-body, article, section, h1, h2, hgroup, p, a, ul, li, em, div, small, span, footer, canvas, figure, figcaption, input {
+ï»¿body, article, section, h1, h2, hgroup, p, a, ul, li, em, div, small, span, footer, canvas, figure, figcaption, input {
 
     margin: 0;
 
@@ -43,7 +43,7 @@ background-size: 100% 100%; background:url(../img/bg.jpg) center bottom  ;backgr
 
 
 
-/*°æÈ¨footer*/
+/*ç‰ˆæƒfooter*/
 .copyright { width: 320px;padding:8px;  text-align:center; font-size:10px; color:#444;  }
 .copyright a { color:#ccc; }
 
@@ -56,7 +56,7 @@ background-size: 100% 100%; background:url(../img/bg.jpg) center bottom  ;backgr
 
 
 
-/*¸öÈËÖĞĞÄ¿ªÊ¼*/
+/*ä¸ªäººä¸­å¿ƒå¼€å§‹*/
 #container { width:320px; margin:0 auto;}
 
 
@@ -418,7 +418,7 @@ font-family: Arial, Helvetica, sans-serif
 
 
 
-/*²Ëµ¥*/
+/*èœå•*/
 
 .mainmenu:after { clear: both; content: " "; display: block; }
 .mainmenu { overflow:hidden;width: 320px; }
@@ -430,7 +430,7 @@ font-family: Arial, Helvetica, sans-serif
 
 
 
-/*°¸Àı*/
+/*æ¡ˆä¾‹*/
 .gnineh {width: 320px;}
 .gnineh li {width: 295px;float: left; height:260px;position: relative;border-radius: 8px;margin:10px;background: #fff}
 .gnineh li img {position: relative; width:295px;}
@@ -444,12 +444,12 @@ font-family: Arial, Helvetica, sans-serif
 
 
 
-/*ÔÚÊÛÏîÄ¿±êÌâ*/
+/*åœ¨å”®é¡¹ç›®æ ‡é¢˜*/
 .title { width: 320px;padding-top:15px;  text-align:15; text-indent:18px;font-size:16px; color:#333; font-weight: bold; }
 .title a { color:#ccc; }
 
 
-/*¸öÈËÖĞĞÄ½áÊø*/
+/*ä¸ªäººä¸­å¿ƒç»“æŸ*/
 
 
 
@@ -457,7 +457,7 @@ font-family: Arial, Helvetica, sans-serif
 
 
 
-/*»î¶¯Ï¸Ôò¿ªÊ¼*/
+/*æ´»åŠ¨ç»†åˆ™å¼€å§‹*/
 
 
 #basics-accordians h2{
@@ -503,7 +503,7 @@ font-family: Arial, Helvetica, sans-serif
 
 }
 
-/*»î¶¯Ï¸Ôò½áÊø*/
+/*æ´»åŠ¨ç»†åˆ™ç»“æŸ*/
 
 
 
@@ -518,7 +518,7 @@ font-family: Arial, Helvetica, sans-serif
 
 
 
-/*ÎÒÒªÍÆ¼ö¿ªÊ¼*/
+/*æˆ‘è¦æ¨èå¼€å§‹*/
 
 .accordion_child {
 
@@ -678,12 +678,12 @@ font-family: Arial, Helvetica, sans-serif
 }
 
 
-/*ÎÒÒªÍÆ¼ö½áÊø*/
+/*æˆ‘è¦æ¨èç»“æŸ*/
 
 
 
 
-/*ÎÒµÄÓ¶½ğ¿ªÊ¼*/
+/*æˆ‘çš„ä½£é‡‘å¼€å§‹*/
 #round {
 
 	border:1px solid #C6C6C6;
@@ -800,13 +800,13 @@ font-family: Arial, Helvetica, sans-serif
 
 
 
-/*ÎÒµÄÓ¶½ğ½áÊø*/
+/*æˆ‘çš„ä½£é‡‘ç»“æŸ*/
 
 
 
 
 
-/*¸öÈËÖ÷Ò³*/
+/*ä¸ªäººä¸»é¡µ*/
 
 #news_list { padding-top:96px;padding-left:15px;width: 260px; }
 #news_list ul li { background:url(../img/linbg.jpg) repeat-x; color:#888;padding-left:0px; padding-right:0px;line-height:1.8;}
@@ -840,4 +840,4 @@ display: block;}
 }
 
 
-/*¸öÈËÖ÷Ò³½áÊø*/
+/*ä¸ªäººä¸»é¡µç»“æŸ*/
