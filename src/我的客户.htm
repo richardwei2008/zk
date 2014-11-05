@@ -1,0 +1,117 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>我的客户</title>
+<meta  name="viewport"  content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+<meta  name="apple-mobile-web-app-capable"  content="yes">
+<meta  name="apple-mobile-web-app-status-bar-style"  content="black">
+<meta  name="format-detection"  content="telephone=no">
+
+<link  href="./css/wap_style.css"  rel="stylesheet"  type="text/css">
+
+</head>
+<script type="text/javascript">
+function altRows(id){
+	if(document.getElementsByTagName){  
+		
+		var table = document.getElementById(id);  
+		var rows = table.getElementsByTagName("tr"); 
+		 
+		for(i = 0; i < rows.length; i++){          
+			if(i % 2 == 0){
+				rows[i].className = "evenrowcolor";
+			}else{
+				rows[i].className = "oddrowcolor";
+			}      
+		}
+	}
+}
+
+window.onload=function(){
+	altRows('alternatecolor');
+}
+</script>
+
+<style type="text/css">
+table.altrowstable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #D6D6D6;
+	border-collapse: collapse;
+}
+table.altrowstable th {
+	border-width: 1px;
+	padding: 8px;
+	background-color:#D6D6D6;
+	border-style: solid;
+	border-color: #D6D6D6;
+}
+table.altrowstable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #D6D6D6;
+}
+.oddrowcolor{
+	background-color:#FAFAFA;
+}
+.evenrowcolor{
+	background-color:#E9E8E8;
+}
+</style>
+
+<body  >
+
+
+
+<div  class="cardexplain">
+
+<div  style="height:30px;">&nbsp;</div> 
+
+<table width="96%" align="center" class="altrowstable" id="alternatecolor">
+<tr>
+	<th>姓 名</th>
+	<th>意向楼盘</th>
+	<th>电 话</th>
+    <th>状 态</th>
+</tr>
+<tr>
+	<td>Text 1A</td><td>Text 1B</td><td>Text 1C</td>
+    <td>&nbsp;</td>
+</tr>
+<tr>
+	<td>Text 2A</td><td>Text 2B</td><td>Text 2C</td>
+    <td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Text 3A</td><td>Text 3B</td><td>Text 3C</td>
+    <td>&nbsp;</td>
+</tr>
+<tr>
+	<td>Text 4A</td><td>Text 4B</td><td>Text 4C</td>
+    <td>&nbsp;</td>
+</tr>
+<tr>
+	<td>Text 5A</td><td>Text 5B</td><td>Text 5C</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+
+
+
+
+<div style="width: 100%;;text-align:left; margin:15px;font-size:16px; color:#333;font-weight: bold;">提 示</div>
+<div style="width: 100%;;text-align:left; margin:15px; font-size:12px; color:#333;">具体判客规则以“活动细则”里的相关说明为准！</div>
+
+
+
+<div  class="copyright">2013-2014 版权所有 中凯城市之光</div> 
+
+
+</div> 
+</body>
+</html>

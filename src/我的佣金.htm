@@ -1,0 +1,153 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+<title>我的佣金</title>
+
+<meta  name="viewport"  content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+
+<meta  name="apple-mobile-web-app-capable"  content="yes">
+
+<meta  name="apple-mobile-web-app-status-bar-style"  content="black">
+
+<meta  name="format-detection"  content="telephone=no">
+
+<link  href="./css/wap_style.css"  rel="stylesheet"  type="text/css">
+
+<script type="text/javascript">
+function altRows(id){
+	if(document.getElementsByTagName){  
+		
+		var table = document.getElementById(id);  
+		var rows = table.getElementsByTagName("tr"); 
+		 
+		for(i = 0; i < rows.length; i++){          
+			if(i % 2 == 0){
+				rows[i].className = "evenrowcolor";
+			}else{
+				rows[i].className = "oddrowcolor";
+			}      
+		}
+	}
+}
+
+window.onload=function(){
+	altRows('alternatecolor');
+}
+</script>
+
+<style type="text/css">
+table.altrowstable {
+
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #D6D6D6;
+	border-collapse: collapse;
+}
+table.altrowstable th {
+	border-width: 1px;
+	padding: 8px;
+	background-color:#D6D6D6;
+	border-style: solid;
+	border-color: #D6D6D6;
+}
+table.altrowstable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #D6D6D6;
+}
+.oddrowcolor{
+	background-color:#FAFAFA;
+}
+.evenrowcolor{
+	background-color:#E9E8E8;
+}
+</style>
+
+</head>
+
+
+
+<body >
+
+
+
+<div  style="height:20px;">&nbsp;</div> 
+
+
+<div  class="cardexplain">
+
+<div id="cate29">
+
+ <ul  class="mainmenus">
+  
+  <li><a  href="#"><div style="padding-bottom:10px; font-size:12px;">可结佣（税前）</div>
+    <span>0.00元</span></a></li>  
+  <li><a  href="#"><div style="padding-bottom:10px; font-size:12px;">已结佣</div>
+    <span>0.00元</span></a></li>  
+  
+</ul>  
+</div>
+
+
+</div>
+
+
+
+
+<div  class="cardexplain">
+
+<div  id="round">
+
+<li  class="userinfo"><a  href="#"><span>请绑定您的银行卡号</span></a></li>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div  class="cardexplain">
+<div  style=";line-height:30px; font-size:24px; margin-bottom:15px; ">账目明细</div> 
+<table width="100%" align="center" class="altrowstable" id="alternatecolor">
+<tr>
+	<th>楼盘名称</th>
+	<th>收入金额</th>
+	<th>日 期</th>
+  </tr>
+<tr>
+	<td>Text 1A</td><td>Text 1B</td><td>Text 1C</td>
+  </tr>
+<tr>
+	<td>Text 2A</td><td>Text 2B</td><td>Text 2C</td>
+  </tr>
+
+<tr>
+	<td>Text 3A</td><td>Text 3B</td><td>Text 3C</td>
+  </tr>
+<tr>
+	<td>Text 4A</td><td>Text 4B</td><td>Text 4C</td>
+  </tr>
+<tr>
+	<td>Text 5A</td><td>Text 5B</td><td>Text 5C</td>
+  </tr>
+</table>
+</div>
+
+
+
+
+
+
+<div  class="copyright">2013-2014 版权所有 中凯城市之光</div> 
+
+</body>
+</html>

@@ -1,0 +1,843 @@
+body, article, section, h1, h2, hgroup, p, a, ul, li, em, div, small, span, footer, canvas, figure, figcaption, input {
+
+    margin: 0;
+
+    padding: 0;
+	
+	
+ 
+}
+
+
+a, img {
+		border: 0;
+	}
+
+a {
+
+	color:#333;
+
+    cursor: pointer;
+
+    text-decoration: none;
+
+}
+
+ul,li{
+
+    list-style-type: none;
+
+}
+
+.clr{
+
+	clear:both;
+
+}
+
+body {
+    
+background-size: 100% 100%; background:url(../img/bg.jpg) center bottom  ;background-repeat: no-repeat;background-color: #EAEAEA;
+
+}
+
+
+
+/*版权footer*/
+.copyright { width: 320px;padding:8px;  text-align:center; font-size:10px; color:#444;  }
+.copyright a { color:#ccc; }
+
+
+
+
+
+
+
+
+
+
+/*个人中心开始*/
+#container { width:320px; margin:0 auto;}
+
+
+
+
+.mode_webapp{padding:0px 0;}
+
+.mode_webapp2{padding-bottom:40px;}
+
+
+
+.cardexplain{
+
+	margin:30px 10px 10px 10px;
+
+	min-width:320px;
+
+
+
+}
+
+
+
+
+.cardexplain2{
+
+	margin:5px 10px 20px 9px;
+
+	min-width:301px;
+
+
+
+}
+
+
+
+
+
+
+
+
+#cardintegral .cardexplain {
+
+	margin: -14px 10px 20px 9px;
+
+	position:relative;z-index:4;
+
+}
+
+#cardaddr .round {
+
+	margin: 0px;
+
+}
+
+#cardshopping .cardexplain {
+
+	margin: 11px 10px -9px 9px;
+
+}
+
+#cardunion .cardexplain {
+
+	margin: 11px 10px 20px 9px;
+
+}
+
+#carduser .cardexplain {
+
+	margin: 11px 10px 20px 9px;
+
+}
+
+
+
+
+#card {
+   width: 320px;
+    background-position: 0 0, 0 0;
+	
+
+}
+
+
+
+
+
+
+
+#card .card{
+
+	margin: 0 auto;
+
+	position: relative;
+
+	height: 159px;
+
+	text-align: left;
+
+	width: 290px;
+
+}
+
+
+
+.card .logo {
+
+	max-height:80px;
+
+	position:absolute;
+
+	top:-20px;
+
+	left:-10px;
+
+	z-index:2;
+	width:80px;
+    height:80px;
+
+}
+
+
+.card .installlogo {
+
+	position:absolute;
+	z-index:40;
+	max-height:70px;
+	left:260px;
+	top:-10px; 
+	width:40px;
+    height:40px;
+
+}
+
+
+#card .card .name {
+
+display:inline-block;
+max-height:70px;
+text-align:left;
+width:160; 
+font-size:30px;
+left:80px;
+top:10px;
+ z-index:5;
+font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+
+
+#card .card .tel {
+
+display:inline-block;
+max-height:70px;
+text-align:left;
+width:160; 
+font-size:14px;
+left:80px;
+top:40px;
+ z-index:5;
+font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+
+#card .card .verify {
+
+	display:inline-block;
+
+	height:30px;
+
+	top:70px;
+
+	right:20px;
+
+	text-align:right;
+
+	line-height:24px;
+
+	color:#000000;
+
+	font-size:14px;
+
+
+	z-index:2;
+
+}
+
+
+
+
+
+
+#card .card .exte {
+
+	display:inline-block;
+
+	height:24px; width:290; 
+    padding-right: 15px;
+	padding-left: 15px;
+	top:70px;
+
+	line-height:24px;
+
+	color:#000000;
+
+	font-size:14px;
+
+	z-index:201;
+
+}
+
+
+
+
+
+#card .ex span {
+
+	color:#646464;
+
+	padding-left:15px;
+
+	display:inline-block;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#card .card .commission {
+
+	display:inline-block;
+
+	height:30px;
+
+	top:120px;
+	
+	right:20px;
+
+	text-align:right;
+
+	line-height:24px;
+
+	color:#000000;
+
+	font-size:28px;
+	z-index:80;
+
+}
+
+
+
+
+
+
+
+#card .card h1 {
+
+	position:absolute;
+
+	right:10px;
+
+	top:-7px;
+
+	text-shadow:0 1px rgba(255, 255, 255, 0.2);
+
+	color:#000000;
+
+	font-size:11px;
+
+	line-height:25px;
+
+	text-align:right;
+
+	font-weight: normal;
+
+	z-index:2;
+
+}
+
+#card .card h2 {
+
+	position:absolute;
+
+	top:3px;
+
+	right:8px;
+
+	font-size:9px;
+
+	line-height:22px;
+
+	text-align:right;
+
+	color:#EDD3BA;
+
+	text-shadow:1px 1px #A69079;
+
+}
+
+
+
+#card .card .verify span {
+
+	display:inline-block;
+
+	text-align:left;
+
+}
+
+#card .card .verify em {
+
+	display:block;
+
+	line-height:13px;
+
+	font-size:10px;
+
+	font-weight:normal;
+
+	font-style:normal;
+
+}
+
+.pdo {
+
+	position:absolute;
+
+	top:0;
+
+	left:0;
+
+	display:inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*菜单*/
+
+.mainmenu:after { clear: both; content: " "; display: block; }
+.mainmenu { overflow:hidden;width: 320px; }
+.mainmenu li { float:left; margin-left: 5%; margin-top: 2%; width: 45%; border-radius:0px; overflow:hidden;}
+.mainmenu li a { display:block; color:#333; line-height:60px; text-align:center; padding:0px 0px; }
+.mainmenu li a img { margin:5px auto 5px; width:140px;  }
+.mainmenu li a span { display:block; width:80%; margin:auto; text-align:center; height:30px; line-height:30px; }
+
+
+
+
+/*案例*/
+.gnineh {width: 320px;}
+.gnineh li {width: 295px;float: left; height:260px;position: relative;border-radius: 8px;margin:10px;background: #fff}
+.gnineh li img {position: relative; width:295px;}
+.gnineh li .info {position: absolute;}
+.gnineh li h2 {font-size: 1.2em;font-weight: normal;text-transform: uppercase;margin:5px;}
+.gnineh li d { font-size: 12px;color:#666;margin-left: 10px;padding-right:8px;margin-bottom:0px;}
+.gnineh li p { font-size: 0.9em;margin:10; background-color:#485855; color:#FFFFFF;border-radius: 4px;text-indent:8px;padding-right:8px;}
+
+
+
+
+
+
+/*在售项目标题*/
+.title { width: 320px;padding-top:15px;  text-align:15; text-indent:18px;font-size:16px; color:#333; font-weight: bold; }
+.title a { color:#ccc; }
+
+
+/*个人中心结束*/
+
+
+
+
+
+
+
+/*活动细则开始*/
+
+
+#basics-accordians h2{
+
+	padding-left: 10px;
+
+}
+
+#basics-accordians {
+
+	position:relative;
+
+	z-index:4;
+
+	margin: 11px 10px 20px 9px;
+
+}
+
+
+
+
+.accordion_headings {
+
+	border:1px solid #C6C6C6;
+
+	background-color:rgba(255, 255, 255, 1);
+
+	text-align:left;
+
+	font-size:14px;
+
+	line-height:24px;
+
+	-webkit-border-radius:5px;
+
+	border-radius:5px;
+
+	box-shadow:0 1px 1px #f6f6f6;
+
+	padding:10px;
+
+	margin-bottom:10px;
+
+}
+
+/*活动细则结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*我要推荐开始*/
+
+.accordion_child {
+
+	padding:15px;
+
+	
+
+}
+
+.accordion_child .xiangqing{
+
+	color: #797979;
+
+	line-height:18px;
+
+	font-size:12px;
+
+}
+
+.accordion_child b {
+
+    color: #797979;
+
+    display: block;
+
+    font-size: 13px;
+
+    line-height: 26px;
+
+    text-align: left;
+
+	font-weight:normal;
+
+}
+
+.accordion_child  ul {
+
+    line-height: 18px;
+
+    text-align: left;
+
+}
+
+.accordion_child  ul li {
+
+  
+
+	-webkit-background-size:5px 5px;
+
+	background-size:5px 5px;
+
+    color: #797979;
+
+    font-size: 12px;
+
+    padding-left: 12px;
+
+}
+
+
+
+.submit {
+
+	background-color:#179F00;
+
+	padding:10px 20px;
+
+	font-size:16px;
+
+	text-decoration:none;
+
+	border:1px solid #0B8E00;
+
+	background-image: linear-gradient(bottom,  #179F00 0%, #5DD300 100%);
+
+	background-image: -o-linear-gradient(bottom, #179F00 0%, #5DD300 100%);
+
+	background-image: -moz-linear-gradient(bottom, #179F00 0%, #5DD300 100%);
+
+	background-image: -webkit-linear-gradient(bottom, #179F00 0%, #5DD300 100%);
+
+	background-image: -ms-linear-gradient(bottom, #179F00 0%, #5DD300 100%);
+
+
+
+	-webkit-box-shadow: 0 1px 0 #94E700 inset, 0 1px 2px rgba(0, 0, 0, 0.5);
+
+	-moz-box-shadow: 0 1px 0 #94E700 inset, 0 1px 2px rgba(0, 0, 0, 0.5);
+
+	box-shadow: 0 1px 0 #94E700 inset, 0 1px 2px rgba(0, 0, 0, 0.5);
+
+	-webkit-border-radius: 5px;
+
+	-moz-border-radius: 5px;
+
+	-o-border-radius: 5px;
+
+	border-radius: 5px;
+
+	color: #ffffff;
+
+	display:block;
+
+	text-align:center;
+
+	text-shadow:0 1px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+.submit img{ width:15px; margin:-4px 10px 0 0;}
+
+
+.px {
+
+	margin: 0.5em 0;
+
+	position: relative;
+
+	background-color: #FFFFFF;
+
+	border-radius: 5px;
+
+	border: 1px solid #C6C6C6;
+
+	color: #333333;
+
+	text-shadow: 0 1px 0 #FFFFFF;
+
+	display: block;
+
+	width: 100%; 
+
+	padding:10px 10px;
+
+	font-size: 16px;
+
+	margin:0 auto;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.px:hover {
+
+	border: 1px solid #ff6501;
+
+}
+
+.px:focus {
+
+	border: 1px solid #ff6501;
+
+	box-shadow: 0 0 5px #ff6501;
+
+}
+
+
+/*我要推荐结束*/
+
+
+
+
+/*我的佣金开始*/
+#round {
+
+	border:1px solid #C6C6C6;
+
+	background-color:rgba(255, 255, 255, 1);
+
+	text-align:left;
+
+	font-size:14px;
+
+	line-height:24px;
+
+	border-radius:5px;
+
+	-webkit-border-radius:5px;
+
+	-moz-border-radius:5px;
+
+	-moz-box-shadow:0 1px 1px #f6f6f6;
+
+	-webkit-box-shadow:0 1px 1px #f6f6f6;
+
+	box-shadow:0 1px 1px #f6f6f6;
+
+	margin-bottom:11px;
+
+	display:block;
+
+	overflow:hidden;
+
+	-webkit-transition: height 0.6s;
+
+    -moz-transition: height 0.6s;
+
+    -o-transition: height 0.6s;
+
+    transition: height 0.6s;
+
+}
+
+
+
+#.round li {
+
+	border:solid #C6C6C6;
+
+	border-width:0 0 1px 0;
+
+	padding:0px 10px 0 10px;
+
+}
+
+#.round li:only-of-type {
+
+	border-width:0;
+
+}
+
+#.round li:last-of-type {
+
+	border-width:0;
+
+}
+
+#round li, .round li span, .round li a {
+
+	line-height:22px;
+
+}
+
+#round li span {
+
+	display:block;
+
+	background:url("../images/arrow3.png") no-repeat ;background-position:290px 12px;
+
+	-webkit-background-size:14px 17px;
+
+	background-size:14px 17px;
+
+	padding:10px 20px 9px 0;
+
+	position:relative;
+
+	font-size:16px;
+
+	min-height: 22px;
+
+}
+
+
+#round li.userinfo {
+
+    background: url("../images/userinfo.png") no-repeat scroll 11px 13px transparent;
+
+	background-size:15px 15px;
+
+    line-height: 22px;
+
+    padding-left: 34px;
+
+}
+
+
+
+
+#cate29 {width:100%;}
+
+#cate29  .mainmenus { width:100%; overflow:hidden }
+#cate29  .mainmenus li { float:left; margin-left:8px; margin-top:1%; width:47%; height:120px; background-color:#485855; background: url("../img/yj1.jpg") no-repeat scroll 0px 0px transparent;background-size:170px;}
+#cate29  .mainmenus li a { display:block;  color:#fff;    width:160px;  margin:25px 20px 9px 63px;}
+#cate29  .mainmenus li span { float:left; color:#fff; font-size:24px;}
+
+
+
+
+/*我的佣金结束*/
+
+
+
+
+
+/*个人主页*/
+
+#news_list { padding-top:96px;padding-left:15px;width: 260px; }
+#news_list ul li { background:url(../img/linbg.jpg) repeat-x; color:#888;padding-left:0px; padding-right:0px;line-height:1.8;}
+#news_list ul li span { float:right; color:#333;}
+
+
+
+
+#cate30 { background-size: 100% 100%; font-size:14px;}
+#cate30  .mainmen:after{clear: both;
+content: " ";
+display: block;}
+#cate30  .mainmen { width:100%; overflow:hidden }
+#cate30  .mainmen li { float:left; margin-left:2%; margin-top:2%; width:46%; border-radius:5px;  height:60px; overflow:hidden }
+#cate30  .mainmen li a { display:block;color:#333; width:100%;  line-height:60px; background: url("../img/huiybg.jpg") no-repeat scroll -5px 13px transparent;background-size:110px; background-color:#FFFFFF;}
+#cate30  .mainmen li a:active{ background-color:rgba(255,255,255,0.1)}
+#cate30  .mainmen li a img {  margin:0px 0px 0px 10px; width:40px; height:40px; display:inline; vertical-align:middle }
+#cate30  .mainmen li a span {   margin-left:40px;  }
+
+
+.card .installlogo2 {
+
+	position:absolute;
+	z-index:40;
+	max-height:70px;
+	left:240px;
+	top:10px; 
+	width:40px;
+    height:40px;
+
+}
+
+
+/*个人主页结束*/
